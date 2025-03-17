@@ -1,0 +1,62 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    --color-text: #e9ecef;
+    --color-text-light: #ced4da;
+    --color-text-lighter: #adb5bd;
+    --color-background: #212529;
+    --color-background-alt: #343a40;
+    --color-border: #495057;
+}
+
+body.dark-mode .header,
+body.dark-mode .footer {
+    background-color: #1a1d20;
+    border-color: var(--color-border);
+}
+
+body.dark-mode .post-card {
+    background-color: #2a2e33;
+}
+
+body.dark-mode .dropdown-menu {
+    background-color: #2a2e33;
+    border-color: var(--color-border);
+}
+
+body.dark-mode .icon-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .form-control {
+    background-color: #343a40;
+    border-color: var(--color-border);
+    color: var(--color-text);
+}
+
+body.dark-mode .skeleton-loader {
+    background-color: #343a40;
+}
+
+body.dark-mode .skeleton-loader::after {
+    background-image: linear-gradient(90deg, rgba(52, 58, 64, 0) 0, rgba(52, 58, 64, 0.2) 20%, rgba(52, 58, 64, 0.5) 60%, rgba(52, 58, 64, 0) 100%);
+}
+
+body.dark-mode .modal-content {
+    background-color: #2a2e33;
+}
+
+body.dark-mode .btn-secondary {
+    background-color: #343a40;
+}
+
+body.dark-mode .table th {
+    background-color: #343a40;
+}
+
+body.dark-mode .form-card {
+    background-color: #2a2e33;
+}
+
+body.dark-mode #dark-mode-toggle .material-icons {
+    content: "light_mode";
+}

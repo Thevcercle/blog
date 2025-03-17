@@ -1,0 +1,74 @@
+/* Additional Responsive Styles */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .post-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    .header-actions #auth-actions {
+        display: none;
+    }
+    
+    .header-actions #user-actions {
+        display: none;
+    }
+    
+    .mobile-menu-actions {
+        margin-top: var(--spacing-lg);
+        padding-top: var(--spacing-md);
+        border-top: 1px solid var(--color-border);
+    }
+    
+    .hero {
+        padding: var(--spacing-xl) 0;
+    }
+    
+    .hero h2 {
+        font-size: 2rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .section {
+        padding: var(--spacing-xl) 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .post-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .donation-form {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+/* Fix for mobile menu transitions */
+@media (min-width: 768px) {
+    .mobile-menu {
+        display: none !important;
+    }
+    
+    .mobile-overlay {
+        display: none !important;
+    }
+}
