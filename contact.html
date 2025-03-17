@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Thevcercle - Get in touch with our team.">
+    <title>Thevcercle - Contact</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Giaza:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <h1>Thevcercle</h1>
+                </a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/category.html?category=personal">Personal</a></li>
+                        <li><a href="pages/category.html?category=tech">Tech</a></li>
+                        <li><a href="pages/category.html?category=business">Business</a></li>
+                        <li><a href="pages/category.html?category=news">News</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button id="dark-mode-toggle" class="icon-button" aria-label="Toggle dark mode">
+                        <span class="material-icons">dark_mode</span>
+                    </button>
+                    <div id="auth-actions">
+                        <a href="pages/auth/login.html" class="btn btn-secondary btn-sm">Login</a>
+                        <a href="pages/auth/register.html" class="btn btn-primary btn-sm">Register</a>
+                    </div>
+                    <div id="user-actions" class="hidden">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle">
+                                <span id="user-email">user@example.com</span>
+                                <span class="material-icons">arrow_drop_down</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="#" id="admin-dashboard-link" class="dropdown-item hidden">Admin Dashboard</a>
+                                <button id="logout-btn" class="dropdown-item">Logout</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="mobile-menu-toggle" class="icon-button d-md-none" aria-label="Toggle menu">
+                        <span class="material-icons">menu</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Have questions or feedback? We'd love to hear from you.</p>
+            </div>
+        </section>
+
+        <section class="contact-section section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <span class="material-icons">email</span>
+                            <div>
+                                <h3>Email</h3>
+                                <p>thevcercle@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <span class="material-icons">phone</span>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <span class="material-icons">location_on</span>
+                            <div>
+                                <h3>Address</h3>
+                                <p>123 Blog Street, Content City, ST 12345</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Send us a message</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" class="form-control" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Thevcercle</h2>
+                    <p>Insights for modern minds</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-column">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li><a href="pages/category.html?category=personal">Personal</a></li>
+                            <li><a href="pages/category.html?category=tech">Tech</a></li>
+                            <li><a href="pages/category.html?category=business">Business</a></li>
+                            <li><a href="pages/category.html?category=news">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Thevcercle. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <!-- JavaScript -->
+    <script src="assets/js/supabase-init.js"></script>
+    <script src="assets/js/auth.js"></script>
+    <script src="assets/js/dark-mode.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

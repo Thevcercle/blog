@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Thevcercle - Learn more about our blog and mission.">
+    <title>Thevcercle - About</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Giaza:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <h1>Thevcercle</h1>
+                </a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/category.html?category=personal">Personal</a></li>
+                        <li><a href="pages/category.html?category=tech">Tech</a></li>
+                        <li><a href="pages/category.html?category=business">Business</a></li>
+                        <li><a href="pages/category.html?category=news">News</a></li>
+                        <li><a href="about.html" class="active">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button id="dark-mode-toggle" class="icon-button" aria-label="Toggle dark mode">
+                        <span class="material-icons">dark_mode</span>
+                    </button>
+                    <div id="auth-actions">
+                        <a href="pages/auth/login.html" class="btn btn-secondary btn-sm">Login</a>
+                        <a href="pages/auth/register.html" class="btn btn-primary btn-sm">Register</a>
+                    </div>
+                    <div id="user-actions" class="hidden">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle">
+                                <span id="user-email">user@example.com</span>
+                                <span class="material-icons">arrow_drop_down</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="#" id="admin-dashboard-link" class="dropdown-item hidden">Admin Dashboard</a>
+                                <button id="logout-btn" class="dropdown-item">Logout</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="mobile-menu-toggle" class="icon-button d-md-none" aria-label="Toggle menu">
+                        <span class="material-icons">menu</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h2>About Thevcercle</h2>
+                <p>Our story, mission, and the team behind the blog.</p>
+            </div>
+        </section>
+
+        <section class="about-section section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-story">
+                        <h3>Our Story</h3>
+                        <p>Thevcercle was founded in 2022 with a simple mission: to provide insightful, accessible, and engaging content across a variety of topics that matter to modern readers.</p>
+                        <p>What started as a small passion project has grown into a community-focused platform that delivers thought-provoking articles, practical advice, and timely news to thousands of readers each month.</p>
+                        <p>We believe in the power of knowledge sharing and strive to create content that educates, inspires, and empowers our audience to make informed decisions in their personal and professional lives.</p>
+                    </div>
+                    <div class="about-mission">
+                        <h3>Our Mission</h3>
+                        <p>At Thevcercle, we aim to:</p>
+                        <ul>
+                            <li>Deliver high-quality, well-researched content that adds real value</li>
+                            <li>Foster a community of curious and engaged readers</li>
+                            <li>Provide diverse perspectives on topics that matter</li>
+                            <li>Make complex subjects approachable and accessible</li>
+                            <li>Respect our readers' time and intelligence</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="team-section">
+                    <h3>Meet Our Team</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="team-member-image">
+                                <img src="assets/images/team/team-1.jpg" alt="Sarah Johnson">
+                            </div>
+                            <div class="team-member-info">
+                                <h4>Sarah Johnson</h4>
+                                <p class="team-role">Founder & Editor-in-Chief</p>
+                                <p>Sarah has over 15 years of experience in digital media and a passion for storytelling that connects people.</p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member-image">
+                                <img src="assets/images/team/team-2.jpg" alt="David Chen">
+                            </div>
+                            <div class="team-member-info">
+                                <h4>David Chen</h4>
+                                <p class="team-role">Tech Editor</p>
+                                <p>David brings his extensive background in software development and emerging technologies to make tech accessible to everyone.</p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member-image">
+                                <img src="assets/images/team/team-3.jpg" alt="Maya Patel">
+                            </div>
+                            <div class="team-member-info">
+                                <h4>Maya Patel</h4>
+                                <p class="team-role">Business Analyst</p>
+                                <p>With an MBA and experience at top consulting firms, Maya provides insightful analysis of business trends and strategies.</p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="team-member-image">
+                                <img src="assets/images/team/team-4.jpg" alt="James Wilson">
+                            </div>
+                            <div class="team-member-info">
+                                <h4>James Wilson</h4>
+                                <p class="team-role">Personal Development Writer</p>
+                                <p>James combines his background in psychology with real-world experience to create practical personal growth content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="join-us-section">
+                    <h3>Join Our Community</h3>
+                    <p>We're always looking for passionate writers and contributors to join our team. If you're interested in writing for Thevcercle, please visit our <a href="contact.html">Contact page</a> to get in touch.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Thevcercle</h2>
+                    <p>Insights for modern minds</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-column">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li><a href="pages/category.html?category=personal">Personal</a></li>
+                            <li><a href="pages/category.html?category=tech">Tech</a></li>
+                            <li><a href="pages/category.html?category=business">Business</a></li>
+                            <li><a href="pages/category.html?category=news">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Thevcercle. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <!-- JavaScript -->
+    <script src="assets/js/supabase-init.js"></script>
+    <script src="assets/js/auth.js"></script>
+    <script src="assets/js/dark-mode.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
